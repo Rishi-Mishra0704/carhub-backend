@@ -1,4 +1,5 @@
 class Api::V1::UsersController < ApplicationController
+
     def index
         @users = User.all
         render json: @users
@@ -27,4 +28,8 @@ class Api::V1::UsersController < ApplicationController
     def user_params
         params.require(:user).permit(:name, :address, :email, :password, :city_id)
     end
+
+    def json_request?
+        request.format.json?
+      end
 end
