@@ -82,6 +82,4 @@ test:
 #
 production:
   <<: *default
-  database: carhub_backend_production
-  username: carhub_backend
-  password: <%= ENV["CARHUB_BACKEND_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
