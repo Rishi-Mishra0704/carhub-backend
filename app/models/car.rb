@@ -1,9 +1,9 @@
 class Car < ApplicationRecord
   belongs_to :user
 
-  validates :name
-  validates :year
-  validates :color
-  validates :plate_no
-  validates :price
+  validates :name, presence: true
+  validates :year, presence: true 
+  validates :color, presence: true
+  validates :plate_no, presence: true
+  validates :price, presence: true
 end
