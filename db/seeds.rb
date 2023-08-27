@@ -30,7 +30,7 @@ indian_cities = [
   
 
 
-user = User.create!(
+User.create(
   name: "Amin",
   address: "123 Main St",
   email: "admin@carhub.com",
@@ -39,7 +39,7 @@ user = User.create!(
   city_id: 1
 )
 
-Car.create!(
+Car.create(
   name: "Toyota Camry",
   year: 2023,
   color: "Silver",
