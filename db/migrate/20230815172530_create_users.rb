@@ -5,6 +5,7 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.string :address
       t.string :email
       t.string :password
+      t.string :role # Add the new field here
       t.references :city, null: false, foreign_key: true
 
       t.timestamps

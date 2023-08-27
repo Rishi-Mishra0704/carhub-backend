@@ -26,7 +26,7 @@ class Api::V1::UsersController < ApplicationController
     private
 
     def user_params
-        params.require(:user).permit(:name, :address, :email, :password, :city_id)
+        params.require(:user).permit(:name, :address,:role , :email, :password, :city_id)
     end
 
     def json_request?

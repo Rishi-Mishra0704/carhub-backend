@@ -37,3 +37,22 @@ indian_cities = [
     City.create(name: city_name)
   end
   
+
+
+user = User.create!(
+  name: "Amin",
+  address: "123 Main St",
+  email: "admin@carhub.com",
+  password: "123456789",
+  role: "admin",
+  city_id: 1
+)
+
+Car.create!(
+  name: "Toyota Camry",
+  year: 2023,
+  color: "Silver",
+  plate_no: "ABC123",
+  price: 25000,
+  user_id:1
+)
