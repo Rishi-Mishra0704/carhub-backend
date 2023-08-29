@@ -91,7 +91,7 @@ In order to run this project you need:
 
 ### Initial State of Kanban Board
 
-![KanBan](https://github.com/users/Lucas-Erkana/projects/6/views/1?layout=board)
+
 
 - We started as a team of 2 team members.
   - [Rishi Mishra](https://github.com/Rishi-Mishra0704)
