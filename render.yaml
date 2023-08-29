@@ -1,6 +1,6 @@
 databases:
   - name: carhub
-    databaseName: carhub
+    databaseName: carhub_tuwf
     user: carhub_user
 
 services:
